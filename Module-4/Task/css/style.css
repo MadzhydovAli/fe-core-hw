@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1044px;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+
+
+
+}
+/* --------------TASK-ONE-------------- */
+
+.task-one {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.list-first{
+    color: rgb(38, 53, 85);
+}
+
+.list-second {
+    color: #6b7488
+}
+
+.list-third{
+    color: rgb(96, 191, 234);
+}
+.list-first , .list-second , .list-third {
+    float: left;
+    margin-left: 30px;
+}
+
+/* --------------TASK-TWO-------------- */
+.task-two{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 500px;
+    padding: 15px 20px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 20px;
+  }
+  .item-two{
+    list-style-type:none;
+    margin-bottom: 10px;
+    display:block;
+    float: left;
+  font-size: 16px;
+  margin-left: 20px;
+  }
+  .item-two:nth-child(2n) {
+      margin-left: 100px;
+  }
+
+    .link-two{
+    text-decoration: none;
+    color:rgb(38, 53, 85)
+  }
+  
+  .link-two::before {
+  content: "\21A0";
+  margin-right: 10px;
+  color: rgb(96, 191, 234);
+  }
+  .task-two :nth-last-child(-n + 1) {
+      margin-bottom: 0px ;
+  }
+
+  /* --------------TASK-THREE-------------- */
+.list-three{
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+  .link-three{
+    text-decoration: none;
+      color: #000;
+  }
+  .item-three:nth-of-type(3n + 1){
+      background: #fff;
+  }
+  .item-three:nth-of-type(3n + 2){
+    background: #ddd;
+}
+.item-three:nth-of-type(3n){
+    background: #bbb;
+}
+
+/* --------------TASK-FOUR-------------- */
+.list-four{
+    background: linear-gradient(to right, rgba(181,193,242,1) 38%,rgba(171,211,238,1) 88%,rgba(141,202,239,1) 99%,rgba(163,210,237,1) 100%);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    padding: 80px 0px;
+    font-size: 24px;
+    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.item-four{
+    display: inline-block;
+    margin-left: 70px;
+}
+.link-four{
+    text-decoration: none;
+    color: #fff;
+}
+.link-four:hover {
+    color: rgb(38, 53, 85);
+}
+#current {
+    color: rgb(38, 53, 85);
+}
+
+/* --------------TASK-FIVE-------------- */
+h2:target {
+    color:red;
+   }
+   .target {
+       padding: 15px;
+       box-shadow: 0 0 20px rgba(0,0,0,0.5);
+       margin-bottom: 20px;    
+   }
+/* --------------TASK-SIX-------------- */
+.priority{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 15px;
+}
+.priority-item{
+    margin-left: 15px;
+}
+
+/* --------------TASK-SEVEN-------------- */
+.main-empty {
+    outline: 1px solid #ccc;
+    height: 200px;
+    width: 642px;
+    float: left;
+    background: #cc0;
+  }
+  .aside-empty {
+    outline: 1px solid #ccc;
+    height: 200px;
+    width: 256px;
+    float: left;
+    background: #eee;
+  }
+
+  /* --------------TASK-EIGHT-------------- */
+
+  .task-eight {
+      outline: 1px solid black;
+      margin-top: 50px;
+    padding: 100px 65px 50px 60px;
+    margin-left: 20px;
+  }
+  .main {
+    width: 642px;
+    float: left;
+  }
+
+  .text {
+    margin-top: 20px;
+}
+  .aside {
+    width: 256px;
+    float: left;
+  }
+  .title{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: rgb(38, 53, 85);
+  }
+  
+  .title-second{
+    text-transform: uppercase;
+    color: rgb(38, 53, 85);
+  }
+   .article-img{
+       float:left;
+       margin-right: 20px;
+       margin-bottom: 20px;
+   }
+.subtitle , .subtitle-second {
+    color: rgb(38, 53, 85);
+    font-size: 18px;
+}
+
+
+.subtitle-second{
+    margin-top: 30px;
+    margin-left: 50px;
+
+    color: rgb(38, 53, 85);
+}
+    .text-second {
+        margin-left: 50px;
+    }
+    
+.article-second{
+    counter-reset: list;
+  }
+  .counter::before {
+    display: inline-block;
+    counter-increment: list;
+    content: counter(list);
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #27B0F0;
+    color: #fefefe;
+    
+  }
