@@ -4,16 +4,7 @@
     margin: 0px;
     padding: 0px;
 }
-html{
-    height: 100%;
-    background: linear-gradient(to right, rgba(181,193,242,1) 38%,rgba(171,211,238,1) 88%,rgba(141,202,239,1) 99%,rgba(163,210,237,1) 100%);
-    background-image: url(../img/fon.png);
-    background-repeat: no-repeat; 
-    background-position: 50% 50%;
-    position: relative;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 body{
     height: 100%;
 }
@@ -24,7 +15,7 @@ body{
     clear: both;
 }
     .wrapper {
-        background: #fff;
+    background: #fff;
     margin: 10px;
     width: 1024px;
 }
