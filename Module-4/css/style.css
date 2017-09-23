@@ -135,6 +135,7 @@ padding-right: 150px;
     margin-right: 0px;
 }
 .item::before {
+    color: #38afe5;
     content: "\21A0";
     margin-right: 10px;
     }
