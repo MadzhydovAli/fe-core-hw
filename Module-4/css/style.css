@@ -7,6 +7,7 @@
 
 body{
     height: 100%;
+    position: relative;
 }
 
 .clearfix::after {
@@ -16,8 +17,11 @@ body{
 }
     .wrapper {
     background: #fff;
-    margin: 10px;
     width: 1024px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 hr{
     background-color: rgba(222, 219, 219, 0.5);
