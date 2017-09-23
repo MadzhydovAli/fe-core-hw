@@ -140,6 +140,7 @@ padding-right: 150px;
     }
     .item:last-child{
         margin-bottom: 0px;
+        margin-right: 0px;
     }
     /*----------------------LOWER ASIDE-----------------*/
     .box-lower{
@@ -183,6 +184,7 @@ span{
 }
 .footer{
     min-height: 130px;
+
     background: #30455b;
     
 }
