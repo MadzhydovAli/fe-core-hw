@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100%;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+    .wrapper {
+    width: 1024px;
+}
+
+/*------------Task-one----------*/
+.box {
+    background:#27B0F0;
+    float: left;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    margin-bottom: 20px;
+}
+.round {
+    background: #fff;
+    border-radius: 100px;
+    padding: 40px 25px;
+}
+
+/*------------Task-two---------------*/
+.box-second{
+    background: linear-gradient(to right, rgba(181,193,242,1) 38%,rgba(171,211,238,1) 88%,rgba(141,202,239,1) 99%,rgba(163,210,237,1) 100%);
+    position: relative;
+    margin-bottom: 20px;
+}
+.navigation{
+    padding: 120px 20px 100px 20px;
+}
+
+.item{
+    text-transform: uppercase;
+    float: left;
+    list-style: none;
+    margin-right: 75px;
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+
+}
+.logo{
+        background: #fff;
+        border-radius: 100px;
+        padding: 40px 25px;
+        float: left;
+        position: absolute;
+        top: 0%;
+        left:50%;
+        transform: translate(-50%, 50%);
+}
+.item:nth-child(5n-2){
+    margin-right: 220px;
+}
+.item:last-child{
+    margin-right: 0px;
+}
+/*------------Task-third---------------*/
+.fon-left {
+    background: #27B0F0;
+    float: left;
+    list-style-type: none;
+    width: 3em;
+    height: 6em;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    position: relative;
+}
+.fon-right {
+    background: #27B0F0;
+    float: left;
+    list-style-type: none;
+    width: 3em;
+    height: 6em;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    position: relative;
+}
+
+.link-left{
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.link-right{
+    position: absolute;
+    text-decoration: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.link-left::before {
+        content: "\2190";
+        color: #fff;
+        font-size: 30px;
+}
+.link-right::before {
+    content: "\2192"; 
+    color: #fff;
+    font-size: 30px;
+}
+.fon-left:hover {
+    background: rgba(56,175, 229, 0.5)
+
+}
+.fon-right:hover {
+    background: rgba(56,175, 229, 0.5)
+
+}
+/*------------Task-four----------------*/
+.item{
+    position: relative;
+}
+.sub-list {
+    padding: 15px 10px;
+    display: none;
+    position: absolute;
+    left:-25px;
+    top: 22px;
+    list-style: none;
+    background: hsla(0, 50%, 100%, 0.6);
+}
+.sub-item{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sub-item:last-child{
+    margin-bottom: 0px;
+}
+
+.item:hover>.sub-list {
+    display: block;
+    background: hsla(0, 50%, 100%, 0.6);
+}
+
+.sub-link{
+text-decoration: none;
+color: rgb(38, 53, 85);
+padding: 5px;
+
+}
+.link:hover{
+    color: rgb(38, 53, 85);
+}
+
+.sub-link:hover{
+    background: rgba(200, 200, 200, 0.5);
+    
+}
+
+.about { 
+    position: relative;
+ }
+
+.about::before {
+  content: '\25bc';
+  top: 0;
+  left:-20px;
+  position: absolute;
+}
