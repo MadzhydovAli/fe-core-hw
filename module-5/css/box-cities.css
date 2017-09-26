@@ -1,0 +1,74 @@
+.box-cities{
+    margin-bottom: 525px;
+}
+.title{
+    text-transform: uppercase;
+    color:rgb(38, 53, 85);
+    padding: 40px 0px;
+}
+.venice{
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+.ny{
+    position: relative;
+    float: left;
+    padding: 5px;
+    
+}
+.paris{
+    position: relative;
+    float: left;
+    padding: 5px; 
+}
+.cities{
+    min-height: 270px;
+    max-height: 270px;
+    padding: 10px 5px 10px 5px;
+    float: left;
+    width:50%;
+    background: rgb(25, 49, 73);
+    color:#fefefe; 
+    text-align: justify;
+    position: absolute;
+    display: none;
+  
+}
+
+.img-citie{
+    float: left;
+    width: 100%;
+}
+
+.citie-name{ 
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text{
+        font-size: 12px;
+        margin-bottom: 31px;
+        color: #ddd;
+}
+.button{
+    background: #fff;
+    color:rgb(38, 53, 85);
+    border-radius: 4px;
+    margin-left: 70px;
+    padding: 0px 10px;
+    text-decoration: none;
+    margin-top: 20px;  
+}
+
+.venice:hover>.cities{
+    display: block;
+}
+.ny:hover>.cities{
+    display: block;
+}
+.paris:hover>.cities{
+    display: block;
+}

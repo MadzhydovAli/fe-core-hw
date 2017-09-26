@@ -169,9 +169,7 @@ padding: 5px;
     
 }
 
-.about { 
-    position: relative;
- }
+
 
 .about::before {
   content: '\25bc';

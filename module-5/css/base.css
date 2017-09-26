@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+    body {
+    width: 1024px;
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    width: 1024px;
+    background: #fff;
+    padding: 60px;
+}

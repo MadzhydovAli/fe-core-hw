@@ -1,0 +1,12 @@
+.arrow{
+    position:relative;
+}
+.arrow-top::before {
+    background: #27B0F0;
+    border-radius: 100%;
+    content:'\2B06';
+    padding: 10px 15px;
+    color: #fff;
+    position: absolute;
+    left: 100%;
+}
