@@ -10,17 +10,20 @@
     position: relative;
     float: left;
     padding: 5px;
+    width: 33%;
 }
 .ny{
     position: relative;
     float: left;
     padding: 5px;
+    width: 33%;
     
 }
 .paris{
     position: relative;
     float: left;
     padding: 5px; 
+    width: 33%;
 }
 .cities{
     min-height: 270px;
