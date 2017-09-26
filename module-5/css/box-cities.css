@@ -6,29 +6,16 @@
     color:rgb(38, 53, 85);
     padding: 40px 0px;
 }
-.venice{
+.citie{
     position: relative;
     float: left;
-    padding: 5px;
     width: 32%;
+    padding: 1%;
 }
-.ny{
-    position: relative;
-    float: left;
-    padding: 5px;
-    width: 32%;
-    
-}
-.paris{
-    position: relative;
-    float: left;
-    padding: 5px; 
-    width: 32%;
-}
-.cities{
-    min-height: 270px;
-    max-height: 270px;
-    padding: 10px 5px 10px 5px;
+.article-citie{
+    min-height: 252px;
+    max-height: 252px;
+    padding: 10px 5px 0px 5px;
     float: left;
     width:50%;
     background: rgb(25, 49, 73);
@@ -53,7 +40,7 @@
 }
 .text{
         font-size: 12px;
-        margin-bottom: 31px;
+        margin-bottom: 71px;
         color: #ddd;
 }
 .button{
@@ -64,14 +51,9 @@
     padding: 0px 10px;
     text-decoration: none;
     margin-top: 20px;  
+
 }
 
-.venice:hover>.cities{
-    display: block;
-}
-.ny:hover>.cities{
-    display: block;
-}
-.paris:hover>.cities{
+.citie:hover>.article-citie{
     display: block;
 }
