@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: rgba(107, 176, 255, 0.5);
+    background-image: url(../img/About-768/fon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    width: 64rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*----------NAV---------------------*/
+    .navigation{
+        padding: 9rem 6.25rem;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    .item-nav{
+        position: relative;
+    }
+
+    .link-nav{
+        flex-basis: 14%;
+        text-decoration:none;
+        font-size:1.3rem;
+        text-transform: uppercase;
+        color:#fff;
+    }
+
+    .link-nav:hover{
+        color:#263555;
+    }
+    .logo{
+        text-decoration: none;
+        color:#263555;
+        padding: 3.5rem 1rem;
+        font-size: 1.5rem;
+        border-radius: 100%;
+        background: #fff;
+        font-weight: bold;
+    }
+    .subnav{
+        display: none;
+        padding: 0.5rem;
+        list-style-type: none;
+        background: #f2f2f3;
+        position: absolute;
+        top: 150%;
+        z-index: 1;
+        border-radius: 5%;
+    }
+    .subnav::before {
+        content: '\25bc';
+        font-size: 1.5rem;
+        color: #f2f2f3;
+        top: -20%;
+        left:35%;
+        position: absolute;
+        transform: rotate(180deg);
+      }
+    .subitem-nav{
+        padding: 0.4rem;
+        text-align: center;
+    }
+    .subitem-nav:last-child{
+        margin-bottom: 0rem;
+    }
+    .subitem-nav:hover{
+        background: #fff;
+    }
+    .sublink-nav{
+        text-decoration:none;
+        color:#263555;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .item-nav:hover>.subnav{
+        display: block;
+    }
+    /*-----------------GALLERY--------------------*/
+    .gallery{
+        background: #fff;
+        padding: 6.25rem 3.75rem;
+        color: #263555;
+    }
+    .title-gallery{
+        margin-bottom: 2.8rem;
+    }
+    .title-text-gallery{
+        text-transform: uppercase;
+    }
+    .gallery-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .gallery-img{
+        width: 32%;
+        margin-bottom: 2.5rem;
+    }
+
+    .gallery-img:nth-last-child(-n+3){
+        margin-bottom: 0rem;
+    }
+    /*--------------FOOTER--------------------*/
+    .footer{
+        width: 100%;
+    }
+.list-footer{
+    list-style-type: none;
+    padding: 2.5rem 8.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    background: #30455b;
+    justify-content: center;
+}
+.item-footer{
+width: 25%;
+margin-bottom: 1rem;
+}
+.item-footer:nth-last-child(-n+4){
+    margin-bottom: 0rem;
+}
+
+.link-footer{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.email{
+    margin-top: 0.25rem;
+    display: block;
+    font-size: 1rem;
+}
+/*-------------SPRITE-------------------*/
+.sprite {
+    width: 100%;
+    padding: 1rem 25rem;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .sprite-item>a {   
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
+  .sprite-item:nth-of-type(1)>a {
+    background-image: url(../img/About-768/sprite.png);
+    background-repeat: no-repeat;
+    background-position:0rem 0rem ;
+    filter: brightness(90%);
+  }
+  
+  .sprite-item:nth-of-type(2)>a {
+    background-image: url(../img/About-768/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -3.23rem 0rem ;
+    filter: brightness(90%);
+  }
+  
+  .sprite-item:nth-of-type(3)>a {
+    background-image: url(../img/About-768/sprite.png);
+    background-repeat: no-repeat;
+    background-position:-6.6rem 0rem ;
+    filter: brightness(90%);
+  }
+  .sprite-item:nth-of-type(4)>a {
+    background-image: url(../img/About-768/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -9.8rem 0rem;
+    filter: brightness(90%);
+  }
+  
+  .sprite-item>a:hover {
+    filter: brightness(100%);
+  }
+/*--------------------ARROW-TOP--------------------*/
+.arrow-top{
+    position: fixed;
+    width: 48rem;
+    left: 100%;
+    top:80%;
+    transform: translateX(-53%);
+    text-decoration: none;
+    z-index: 10;
+}
+.arrow-top::before {
+    background: #27B0F0;
+    border-radius: 100%;
+    content:'\2B06';
+    padding: 10px 15px;
+    color: #fff;
+}
