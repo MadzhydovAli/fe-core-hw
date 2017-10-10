@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+background: rgba(107, 176, 255, 0.5);
+background-image: url(../img/fon.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.wrapper{
+    width: 64rem;
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+/*----------------CONTAINER FORMS-----------------------*/
+
+.container-forms{
+    width: 100%;
+    padding: 6.25rem 3.75rem 5rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+/*--------TASK-1------------------*/
+/*-------------------MAP----------------------*/
+.map{
+    width: 75%;
+}
+
+/*------------------------CONTACTS-----------------------*/
+.contacts{
+    width: 22%;
+}
+
+
+.title{
+    text-transform: uppercase;
+    margin-bottom: 3.125rem;
+    color:#263555;
+}
+
+label{
+    display: block;
+    margin-bottom: 1rem ;
+    
+}
+input{
+    background: #fcfafa;
+    border: 1px solid #d4d0d0;
+    padding: 0.4rem 0.625rem;
+    width: 100%;
+    
+}
+::-webkit-input-placeholder {
+    color:#263555;
+    text-transform: uppercase;
+}
+
+
+textarea{
+    background: #fcfafa;
+    border: 1px solid #d4d0d0;
+    padding: 1rem 0.625rem;
+    display: inline-block;
+    margin-bottom: 1.25rem ;
+    resize:none;
+    width: 100%;
+}
+
+::-webkit-textarea-placeholder{
+    color:#263555;
+    text-transform: uppercase;
+}
+button{
+    background: #fcfafa;
+    border: 1px solid #b1aaaa;
+    padding: 0.4rem 1.25rem;
+    border-radius: 10%;
+    margin-left: 1.4rem;
+    font-weight: bold;
+}
+
+
+/*--------TASK-2------------------*/
+
+.tours{
+    width: 70%;
+}
+
+/*------------------------CONTACTS-----------------------*/
+.box-aside{
+    width: 25%;
+}
+
+/*--------------BROWSE-----------------------*/
+
+.text{
+    margin-bottom: 0.5rem;
+}
+select{
+    border: 1px solid #b1aaaa;
+    padding: 0.4rem;
+    background: #fcfafa;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+option{
+    color: #fff;
+    background: #cecece;
+}
+
+
+.submit-mrgn{
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    border: 1px solid #b1aaaa;
+
+}
+
+/*------------------TOUR-OPERATOR------------------*/
+.link-tour{
+    color: rgb(2, 200,255);
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+a{
+
+    text-decoration: none;
+}
+
+
+/*--------TASK-4------------------*/
+
+/*--------TABLE------------------*/
+.tables{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+
+}
+table{
+color:#333;
+margin-bottom: 3rem;
+}
+caption{
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+
+.span-table{
+    display: block;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: right;
+}
+
+.tel{
+    color:#333;
+}
+
+.email-link{
+    color: red;
+}
+
+/*--------------------TASK-5-----------*/
+
+.article{
+    width:100%;
+    
+}
+
+.demo-user{
+text-transform: none;
+display: block;
+font-size: 0.7rem;
+color: rgba(0,0,0,0.7);
+margin-left: 3.5rem;
+margin-bottom: 1rem;
+}
+.img-article{
+    float: left;
+    margin-right: 1.25rem;
+    margin-bottom: 10rem;
+}
+
+.clearfix::after{
+display: block;
+content:'';
+clear: both;
+}
+.subtitle{
+margin-bottom: 1rem;
+color:#263555;
+}
+.text-article{
+margin-bottom: 1rem;
+}
+.button{
+text-decoration: none;
+padding: 0.2rem 0.7rem;
+border: 0.06rem solid rgba(0,0,0,0.5);
+color: #000;
+border-radius: 10%;
+background: #fcf5f6;
+transition-property: width;
+transition-duration: 2s;
+}
+.subtitle:hover{
+    transition-property: font-size;
+    transition-duration: 2s;
+    font-size: 1.5rem;
+}
+.img-article:hover{
+    transition-property: transform;
+    transition-duration: 1s;
+    transform: rotate(45deg);
+}
+.text-article:hover{
+    transition-property: color;
+    transition-duration: 1s;
+    color:red;
+}
+.button:hover{
+    transition-property: padding;
+    transition-duration: 2s;
+    padding: 0.25rem 2rem;
