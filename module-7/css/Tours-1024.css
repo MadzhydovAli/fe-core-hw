@@ -1,0 +1,112 @@
+@import'base.css';
+@import'header.css';
+@import'footer.css';
+
+
+.container-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours-specials{
+  flex-basis: 70%;
+     display: flex;
+     flex-direction:column;
+   }
+   .box-tours{
+     display:flex;
+     flex-wrap: wrap;
+   }
+   .tour{
+     flex-basis: 50%;
+     display: flex;
+     
+   }
+   .forms{
+     flex-basis:25%;
+   }
+   .title{
+     text-transform:uppercase;
+     color: #30455b;
+     margin-bottom: 3rem;
+   }
+   .box-tours{
+     display:flex;
+   }
+  
+   .tour{
+     flex-basis: 50%;
+     margin-bottom: 2rem;
+   }
+   .box-img{
+    margin-right: 1rem;
+   }
+   
+   .title-tour{
+     margin-bottom: 1rem;
+     color: rgb(0,20,100);
+   }
+   .text{
+     font-size: 0.8rem;
+   }
+   .price-tour{
+     margin-bottom: 1rem;
+     text-transform: uppercase;
+     color: rgb(2, 200,255);
+   }
+   .margin-price{
+     margin-bottom: 2rem;
+   }
+
+
+   .link-tour{
+    border: 0.1rem solid rgba(0,0,0,0.2);
+    padding: 0.2rem 1rem;
+    background:#fff9f9;
+    border-radius: 0.25rem;
+    margin-right: 2rem;
+    color: #263555;
+    font-weight: bold;
+}
+
+   /*--------------BROWSE-----------------------*/
+
+.text{
+    margin-bottom: 0.5rem;
+}
+select{
+    border: 1px solid #b1aaaa;
+    padding: 0.4rem;
+    background: #fcfafa;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+option{
+    color: #fff;
+    background: #cecece;
+}
+
+.submit{
+  margin-bottom: 1rem;
+  border: 0.2rem solid rgba(0,0,0,0.2);
+  padding: 0.2rem 1rem;
+  background:#fafafa;
+  border-radius: 0.4rem;
+  margin-right: 2rem;
+  color: #263555;
+  font-weight: bold;
+}
+.submit-mrgn{
+    margin-bottom: 0rem;
+  
+
+}
+
+/*------------------TOUR-OPERATOR------------------*/
+.link-all-operators{
+    color: rgb(2, 200,255);
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}

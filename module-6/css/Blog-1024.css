@@ -12,9 +12,7 @@ html{
 
 .wrapper{
     width: 64rem;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin:auto;
 }
 /*----------------NAV--------------------*/
     .navigation{

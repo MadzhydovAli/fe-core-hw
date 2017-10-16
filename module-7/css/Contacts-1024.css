@@ -1,0 +1,103 @@
+@import'base.css';
+@import'header.css';
+@import'footer.css';
+
+
+/*--------------------------MAP--------------------------*/
+
+
+/*--------------------------CONTACTS----------------------------*/
+.container-main{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    padding-top: 5rem;
+}
+.tables{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+
+}
+table{
+color:#333;
+margin-bottom: 3rem;
+}
+caption{
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+.margin-0{
+    margin-bottom: 0rem;
+}
+
+.span-table{
+    display: block;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: right;
+}
+
+.tel{
+    color:#333;
+}
+
+.email-link{
+    color: red;
+}
+
+
+
+/**/
+.contact-us{
+    flex-basis: 25%;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 3.125rem;
+    color:#263555;
+}
+
+input{
+    display: block;
+    margin-bottom: 1rem ;
+    background: #fcfafa;
+    border: 1px solid #d4d0d0;
+    padding: 0.4rem 0.625rem;
+    width: 100%;
+    
+}
+::-webkit-input-placeholder {
+    color:#263555;
+    text-transform: uppercase;
+}
+
+
+textarea{
+    background: #fcfafa;
+    border: 1px solid #d4d0d0;
+    padding: 1rem 0.625rem;
+    display: inline-block;
+    margin-bottom: 1.25rem ;
+    resize:none;
+    width: 100%;
+}
+
+::-webkit-textarea-placeholder{
+    color:#263555;
+    text-transform: uppercase;
+}
+button{
+    background: #fcfafa;
+    border: 1px solid #b1aaaa;
+    padding: 0.4rem 1.25rem;
+    border-radius: 10%;
+    margin-left: 1.4rem;
+    font-weight: bold;
+}

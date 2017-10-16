@@ -45,12 +45,9 @@ background-repeat: no-repeat;
     color:#263555;
 }
 
-label{
+input{
     display: block;
     margin-bottom: 1rem ;
-    
-}
-input{
     background: #fcfafa;
     border: 1px solid #d4d0d0;
     padding: 0.4rem 0.625rem;
@@ -134,6 +131,9 @@ option{
 a{
 
     text-decoration: none;
+}
+li{
+    list-style-type: none;
 }
 
 
@@ -233,7 +233,7 @@ transition-duration: 2s;
     transition-duration: 1s;
     color:red;
 }
-.button:hover{
+.width:hover{
     transition-property: padding;
     transition-duration: 2s;
     padding: 0.25rem 2rem;

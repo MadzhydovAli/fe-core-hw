@@ -1,0 +1,71 @@
+
+/*----------NAV---------------------*/
+.navigation{
+    padding: 9rem 6.25rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.item-nav{
+    position: relative;
+}
+
+.link-nav{
+    flex-basis: 14%;
+    text-decoration:none;
+    font-size:1.3rem;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.link-nav:hover{
+    color:#263555;
+}
+.logo{
+    text-decoration: none;
+    color:#263555;
+    padding: 3.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    background: #fff;
+    font-weight: bold;
+}
+.subnav{
+    display: none;
+    padding: 0.5rem;
+    list-style-type: none;
+    background: #f2f2f3;
+    position: absolute;
+    top: 150%;
+    z-index: 1;
+    border-radius: 5%;
+}
+.subnav::before {
+    content: '\25bc';
+    font-size: 1.5rem;
+    color: #f2f2f3;
+    top: -20%;
+    left:35%;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+.subitem-nav{
+    padding: 0.4rem;
+    text-align: center;
+}
+.subitem-nav:last-child{
+    margin-bottom: 0rem;
+}
+.subitem-nav:hover{
+    background: #fff;
+}
+.sublink-nav{
+    text-decoration:none;
+    color:#263555;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.item-nav:hover>.subnav{
+    display: block;
+}

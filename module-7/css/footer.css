@@ -1,0 +1,91 @@
+  /*------------------FOOTER--------------------*/
+
+  .footer-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 10rem;
+    color: #fff;
+    background: #30455b;
+}
+.section-contacts{
+  flex-basis: 25%;
+}
+
+.list-footer{
+display: flex;
+flex-wrap: wrap;
+flex-basis: 70%;
+list-style-type: none;
+color: #fff;
+background: #30455b;
+}
+.item-footer{
+margin-bottom: 1rem;
+flex-basis: 33%;
+}
+.item-footer:nth-last-child(-n+4){
+margin-bottom: 0rem;
+}
+
+.link-footer{
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+}
+.tel-footer{
+  margin-top: 1.5rem;
+}
+.email-footer{
+display: block;
+font-size: 1rem;
+}
+
+
+    /*------------------SPRITE----------------------*/
+    .sprite {
+        width: 100%;
+        padding: 1rem 24rem;
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+   
+    
+      .sprite-item>a {   
+        display: inline-block;
+        height: 2.5rem;
+        width: 2.5rem;
+      }
+      
+      .sprite-item:nth-of-type(1)>a {
+        background-image: url(../img/footer/sprite.png);
+        background-repeat: no-repeat;
+        background-position:0rem 0rem ;
+        filter: brightness(90%);
+      }
+      
+      .sprite-item:nth-of-type(2)>a {
+        background-image: url(../img/footer/sprite.png);
+        background-repeat: no-repeat;
+        background-position: -3.23rem 0rem ;
+        filter: brightness(90%);
+      }
+      
+      .sprite-item:nth-of-type(3)>a {
+        background-image: url(../img/footer/sprite.png);
+        background-repeat: no-repeat;
+        background-position:-6.6rem 0rem ;
+        filter: brightness(90%);
+      }
+      .sprite-item:nth-of-type(4)>a {
+        background-image: url(../img/footer/sprite.png);
+        background-repeat: no-repeat;
+        background-position: -9.8rem 0rem;
+        filter: brightness(90%);
+      }
+      
+      .sprite-item>a:hover {
+        filter: brightness(100%);
+      }
