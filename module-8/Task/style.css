@@ -1,0 +1,164 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+text-transform:uppercase;
+text-align: center;
+}
+
+
+/*----------------------TASK-1-------------------*/
+.container-task-one{
+    margin: auto;
+    max-width: 60rem;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-bottom: 5rem;
+}
+.header-one{
+    width: 100%;
+    height: 3rem;;
+    background: rgba(200,200,0,1);
+    margin-bottom: 0.5rem;
+}
+.content-one{
+    width: 54%;
+    height: 20rem;;
+    background: rgba(0,100,255,1);
+}
+.sidebar-one{
+    width:20%;
+    height: 20rem;;
+    background: rgba(0,0,0,0.5);
+}
+.sidebar-one-second{
+    width:20%;
+    height: 20rem;;
+    background: rgba(200,100,0,1);
+}
+.footer-one{
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 3rem;;
+    background: rgba(0,150,0,1);
+}
+
+
+/*----------------------TASK-2-------------------*/
+.container-task-two{
+    max-width:48rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.content-two{
+    height: 5rem;;
+    background: rgba(255,255,0,0.5);
+}
+.sidebar-two{
+    height: 5rem;;
+    background: rgba(0,255,100,0.5);
+}
+@media (min-width: 48rem){
+    .container-task-two{
+        display:flex;
+    }
+    .content-two{
+        flex-basis:75%;
+        height:10rem;
+    }
+    .sidebar-two{
+        flex-basis: 25%;
+        height:10rem;
+    }
+}
+
+
+/*----------------------TASK-3-------------------*/
+
+.container-task-three{
+    max-width: 48rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.header-three{
+    height: 10rem;;
+    background: rgba(255,100,0,1);
+    margin-bottom: 0.5rem;
+}
+.content-three{
+    height: 10rem;;
+    background: rgba(0,100,255,1);
+    margin-bottom: 0.5rem;
+}
+.sidebar-three{
+    height:7rem;;
+    background: rgba(0,0,0,0.5);
+}
+@media (min-width:48rem){
+    .container-task-three{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        
+    }
+    .header-three{
+        flex-basis: 100%;
+
+    }
+    .content-three{
+        flex-basis: 35%;
+        height: 17rem;
+    }
+    .sidebar-three{
+        flex-basis: 60%;
+        height: 17rem;
+    }
+}
+
+
+/*----------------------TASK-4-------------------*/
+.container-task-four {
+    max-width: 75rem;
+    margin: auto;
+    height: 10rem;
+    border: 2px solid #000;
+    background: #0f0;
+    margin-bottom: 5rem;
+  }
+  
+  @media (min-width: 30rem) {
+    .container-task-four {
+      background: #f00;
+      border: 4px solid #000;
+    }
+  }
+  
+  @media (min-width: 48rem) {
+    .container-task-four {
+      background: #00f;
+      border: 6px solid #000;
+    }
+  }
+  
+  @media (min-width: 60rem) {
+    .container-task-four {
+      background: #f90;
+      border: 8px solid #000;
+    }
+  }
+  
+  @media (min-width: 75rem) {
+    .container-task-four {
+      background: #321;
+      border: 10px solid #000;
+    }
+  }
+  
+
+/*----------------------TASK-5-------------------*/
+.section-picture{
+    max-width: 75rem;
+}
