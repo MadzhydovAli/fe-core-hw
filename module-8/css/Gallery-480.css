@@ -1,0 +1,208 @@
+
+@media (min-width: 30rem) {
+
+/*------------------------HEADER-480--------------------------*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.box-logo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.logo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1.75rem 0.4rem;
+    border-radius: 100%;
+    background: #fff;
+    color: rgb(27, 27, 90);
+    
+}
+.navigation{
+    padding: 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 2.5rem;
+
+}
+.item-nav{
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+.link-nav{
+    color:#fff;
+}
+.link-nav:hover{
+    color:rgba(0,0,100,1);
+}
+
+.subnav{
+    display: none;
+    padding: 0.4rem 0.2rem;
+    background: #f2f2f3;
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    z-index: 1;
+    border-radius: 5%;
+    font-size: 0.7rem;
+}
+.subnav::before {
+    padding: 0 1rem;
+    content: '\25bc';
+    font-size: 1rem;
+    color: #f2f2f3;
+    top: -18%;
+    left:10%;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+  .subitem-nav{
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+.subitem-nav:last-child{
+    margin-bottom: 0rem;
+}
+.subitem-nav:hover{
+    background: #fff;
+}
+.sublink-nav{
+    padding: 0.2rem;
+    text-decoration:none;
+    color:#263555;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.item-nav:hover>.subnav{
+    display: block;
+}
+
+/*--------------------------GALLERY-480------------------------*/
+    .title-gallery{
+        color: rgb(27, 27, 90);
+    }
+    .gallery{
+        background: #fff;
+        padding: 3.75rem 2.5rem;
+    }
+    .title-gallery{
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+    .img-gallery{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .img-gallery:nth-last-child(-n+3){
+        display: none;
+    }
+
+    .img-gallery:last-child{
+        margin-bottom: 0rem;
+    }
+    
+/*--------------------------FOOTER-----------------------------*/
+    .footer-one{
+        background: #123456;
+        color: #fff;
+        padding: 1.5rem 3rem;
+        font-size: 0.8rem;
+      }
+      .list-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      .item-footer{
+        flex-basis: 32%;
+        margin-bottom: 0.5rem;
+      }
+      .item-footer:nth-last-child(-n+3){
+        margin-bottom: 0rem;
+      }
+      .link-footer{
+        color:#fff;
+      }
+      
+      .item-contact{
+       display: inline-block;
+        text-transform: uppercase;
+      }
+      .link-contact{
+        margin-left: 1.2rem;
+        color:#fff;
+        font-size: 0.8rem;
+      }
+      .mobile-footer::before{
+        content:'\2706';
+        font-size: 1.2rem;
+        margin-right: 0.25rem;
+      }
+      .email-footer::before{
+        content:'\2709';
+        font-size: 1.2rem;
+        margin-right: 0.25rem;
+      }
+      
+      /*----------------FOOTER-SPRITE--------------------*/
+      
+      .sprite {
+        width: 100%;
+        padding: 2rem 8rem;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      
+      
+      .sprite-item>a {   
+        display: inline-block;
+        height: 2.5rem;
+        width: 2.5rem;
+      }
+      
+      .sprite-item:nth-of-type(1)>a {
+        background-image: url(../../img/footer/sprite.png);
+        background-repeat: no-repeat;
+        background-position:0rem 0rem ;
+        filter: brightness(90%);
+      }
+      
+      .sprite-item:nth-of-type(2)>a {
+        background-image: url(../../img/footer/sprite.png);
+        background-repeat: no-repeat;
+        background-position: -3.23rem 0rem ;
+        filter: brightness(90%);
+      }
+      
+      .sprite-item:nth-of-type(3)>a {
+        background-image: url(../../img/footer/sprite.png);
+        background-repeat: no-repeat;
+        background-position:-6.6rem 0rem ;
+        filter: brightness(90%);
+      }
+      .sprite-item:nth-of-type(4)>a {
+        background-image: url(../../img/footer/sprite.png);
+        background-repeat: no-repeat;
+        background-position: -9.9rem 0rem;
+        filter: brightness(90%);
+      }
+      
+      .sprite-item>a:hover {
+        filter: brightness(100%);
+      }
+    }

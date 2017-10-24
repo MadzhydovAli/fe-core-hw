@@ -1,0 +1,55 @@
+@media (min-width: 64rem) {
+/*-----------------HEADER-----------------*/
+    header{
+        margin-top: 0;
+    }
+    .box-logo{
+        position: absolute;
+        left: 45%;
+        top:3.5%;
+        margin-bottom: 0;
+    }
+    .logo{
+        padding: 2.5rem 0.6rem;
+    }
+    .navigation{
+    margin-top: 5rem;
+    padding: 0 0;
+    flex-wrap: none;
+    font-size: 1.3rem;
+}
+.item-nav{
+    flex-basis: 12%;
+    margin-bottom: 2.5rem;
+}
+.item-nav:nth-of-type(3){
+    margin-right:10rem;
+}
+.subnav{
+    top:25%;
+    left:20.5%;
+    font-size: 1rem;
+}
+.sublink-nav{
+    padding: 0.4rem 0.2rem;
+}
+.subnav::before{
+    left: 20%;
+}
+
+
+/*----------------------GALLERY-----------------------*/
+.img-gallery{
+    flex-basis: 32%;
+}
+.img-gallery:nth-last-child(-n+3){
+    display: block;
+}
+
+
+/*-------------------FOOTER----------------------*/
+.sprite{
+    padding: 2rem 25rem;
+}
+
+}

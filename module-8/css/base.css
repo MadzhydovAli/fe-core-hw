@@ -1,0 +1,41 @@
+html{
+    background-image: url(../img/base-fon/fon.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.arrow-top{
+    position: fixed;
+    right: 5%;
+    bottom:5%;
+    z-index: 10;
+}
+.arrow-top::before {
+    background: #27B0F0;
+    border-radius: 100%;
+    content:'\2B06';
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.wrapper{
+    max-width: 64rem;
+    margin: auto;
+    position: relative;
+}
+
