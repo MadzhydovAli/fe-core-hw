@@ -34,8 +34,9 @@ ul{
 }
 
 .wrapper{
+    min-width: 30rem;
     max-width: 64rem;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
 }
 
