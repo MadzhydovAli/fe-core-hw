@@ -1,0 +1,116 @@
+
+ul{
+    padding-left: 0;
+}
+  
+  .section-margin-bottom-tours{
+      margin-bottom: 3rem;
+  }
+
+   .img-tour{
+    display: block;
+    width: 100%;
+   }
+   .margin-tour{
+       margin-bottom: 3rem;
+   }
+   .margin-tour:last-child{
+       margin-bottom: 0;
+   }
+
+   
+
+   .title-tour{
+     color: rgb(0,20,100);
+   }
+
+   .text{
+     font-size: 0.8rem;
+   }
+
+   .price-tour{
+     text-transform: uppercase;
+     color: rgb(2, 200,255);
+     margin-bottom: 1rem;
+   }
+
+   .margin-price{
+
+   }
+
+   .link-tour{
+    border: 0.1rem solid rgba(0,0,0,0.2);
+    padding: 0.125rem 1rem;
+    background:#fff9f9;
+    border-radius: 0.5rem;
+
+    color: #263555;
+    font-weight: bold;
+    display: inline-block;
+}
+
+   /*--------------BROWSE-----------------------*/
+option{
+    font-size: 0.8rem;
+}
+.text{
+    margin-bottom: 0.5rem;
+}
+select{
+    border: 1px solid #b1aaaa;
+    padding: 0.4rem;
+    background: #fcfafa;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+option{
+    color: #fff;
+    background: #cecece;
+}
+
+.submit{
+  border: 0.2rem solid rgba(0,0,0,0.2);
+  padding: 0.2rem 1rem;
+  background:#fafafa;
+  border-radius: 0.4rem;
+  color: #263555;
+  font-weight: bold;
+}
+
+.submit-mrgn{
+    margin-bottom: 0rem;
+}
+
+/*------------------TOUR-OPERATOR------------------*/
+.link-all-operators{
+    color: rgb(2, 200,255);
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+
+
+@media(min-width:48rem){
+    .margin-tour:nth-last-child(-n+2){
+        margin-bottom: 0;
+    }
+}
+
+
+
+@media(min-width:75rem){
+    .section-margin-bottom-tours:first-child{
+        margin-bottom: 0;
+    }
+    option{
+        font-size: 1rem;
+    }
+    .title-tour{
+        font-size: 1.25rem;
+    }
+    .text{
+        font-size: 1rem;
+    }
+}

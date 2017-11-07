@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+
+@import url('https://fonts.googleapis.com/css?family=Kameron|Merienda');
+
+.logo{
+
+    font-family: 'Sedgwick Ave', cursive;
+    
+}
+
+header, footer{
+    font-family: 'Kameron', serif;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Merienda', cursive;
+}
+
+

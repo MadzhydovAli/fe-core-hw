@@ -5,8 +5,9 @@
     }
     .box-logo{
         position: absolute;
-        left: 45%;
-        top:3.5%;
+        left: 50%;
+        top:50%;
+        transform: translate(-45%,-60%);
         margin-bottom: 0;
     }
     .logo{
@@ -15,7 +16,6 @@
     .navigation{
     margin-top: 5rem;
     padding: 0 0;
-    flex-wrap: none;
     font-size: 1.3rem;
 }
 .item-nav{
@@ -39,10 +39,10 @@
 
 
 /*----------------------GALLERY-----------------------*/
-.img-gallery{
+.container-img{
     flex-basis: 32%;
-}
-.img-gallery:nth-last-child(-n+3){
+  }
+  .container-img:nth-last-child(-n+3){
     display: block;
 }
 

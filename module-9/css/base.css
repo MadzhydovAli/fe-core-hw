@@ -1,0 +1,49 @@
+body{
+    background: url(../img/base-fon/fon.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.container-width{
+    min-width: 30rem;
+    max-width: 75rem;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.margin-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.padding-col{
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin-bottom: 0;
+}
+a:hover{
+    text-decoration: none;
+    }
+
+
+
+.arrow-top{
+    position: fixed;
+    right: 5%;
+    bottom:5%;
+    z-index: 10;
+}
+.arrow-top::before {
+    background: #27B0F0;
+    border-radius: 100%;
+    content:'\2B06';
+    padding: 0.25rem 0.75rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+

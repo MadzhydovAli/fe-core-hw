@@ -1,0 +1,70 @@
+@media (min-width: 75rem) {
+/*-----------------HEADER-----------------*/
+    header{
+        margin-top: 0;
+    }
+    .row-position-absolute{
+        position: relative;
+    }
+    .logo-position-absolute{
+        position: absolute ;
+        left: 50%;
+        top: 60%;
+        transform:translate(-50%,-50%); 
+        margin-bottom: 0;
+    }
+    .logo{
+        font-size: 1.8rem;
+        padding: 2.5rem 0.6rem;
+    }
+    .navigation{
+    padding: 7rem 0; 
+    font-size: 1.5rem;
+}
+.item-nav{
+    flex-basis: 12%;
+    margin-bottom: 0rem;
+}
+.item-nav:nth-of-type(3){
+    margin-right:10rem;
+}
+.subnav{
+    font-size: 1rem;
+}
+.sublink-nav{
+    padding: 0.4rem 0.2rem;
+}
+.subnav::before{
+    left: 20%;
+}
+
+
+/*----------------------GALLERY-----------------------*/
+
+  .container-img:nth-last-child(-n+3){
+    display: block;
+}
+.title-section{
+    font-size: 2rem;
+}
+/*----------------------FOOTER-----------------------*/
+.link-footer, .item-contact{
+    font-size: 1.3rem;
+}
+
+   .link-contact{
+     font-size: 1rem;
+   }
+   .mobile-footer::before{
+     content:'\2706';
+     font-size: 1.5rem;
+     margin-right: 0.25rem;
+   }
+   .email-footer::before{
+     content:'\2709';
+     font-size: 1.5rem;
+     margin-left: 1rem;
+     margin-right: 0.25rem;
+   }
+
+}
