@@ -111,33 +111,19 @@
         position: relative;
     }
     .arrow-quotes::before{
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translatex(-50%);
-        display: block;
-        content: '';
-        width: 0;
-        height: 0;
-        border: 1px solid transparent;
-        border-left-width: 30px;
-        border-right-width: 30px;
-        border-top: 30px solid #fcfafa;
 
-/*
         z-index: 1;
         content: '';
         position: absolute;
-        top: 86%;
+        top: 100%;
         left: 50%;
-        transform: translatex(-50%) rotate(45deg);
+        transform: translate(-50%, -50%) rotate(45deg);
         display: block;
         width: 2rem;
         height: 2rem;
         background: #fcfafa;
         border-bottom: 0.0625rem solid #dedbdb;
         border-right: 0.0625rem solid #dedbdb;
-     */
     }
     .margin-top-autor{
         margin-top: 2rem;

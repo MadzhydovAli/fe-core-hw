@@ -127,6 +127,9 @@ header{
       }
 
     .gallery-icon{
+        background-image: url(../../img/icon-zoom/zoom.png);
+        background-size: cover;
+        background-repeat: no-repeat;
         position: absolute;
         display: none;
         height: 4rem;
@@ -204,9 +207,7 @@ header{
       }
       
       /*----------------FOOTER-SPRITE--------------------*/
-      .footer-two{
-          padding: 0 2.5rem;
-      }
+      
       .sprite {
         padding: 1.5rem 0 0.5rem;
         list-style: none;
@@ -218,6 +219,7 @@ header{
       }
       .sprite-item{
           text-align: center;
+          padding: 0.5rem;
       }
 
       .sprite-item>a {   
