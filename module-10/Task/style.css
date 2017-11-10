@@ -1,0 +1,48 @@
+
+/*--------------TASK-2----------------*/
+.box{
+    background: url('http://lorempixel.com/output/nature-q-c-600-300-3.jpg') no-repeat;
+    width: 600px;
+    height: 300px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .box {
+      background: url('http://lorempixel.com/output/nature-q-c-1200-600-3.jpg') no-repeat;
+      background-size: cover;
+    }
+  }
+
+
+  /*--------------TASK-3----------------*/
+  .box-icon{
+      display: flex;
+      justify-content: center;
+    margin-top: 2rem;
+  }
+  .box-icon [class*="svg-icon"]{
+      display: block;
+      width: 4rem;
+      height: 4rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: 1rem;
+  }
+  .box-icon [class*="svg-icon"]:last-child{
+      margin-right: 0;
+  }
+  .svg-icon-facebook{
+      background: url('img/facebook.png');
+      background-image: url('img/facebook.svg');
+  }
+  .svg-icon-twitter{
+    background: url('img/twitter.png');
+    background-image: url('img/twitter.svg');
+}
+    .svg-icon-github{
+    background: url('img/github.png');
+    background-image: url('img/github.svg');
+}
+    .svg-icon-google{
+    background: url('img/google-plus.png');
+    background-image: url('img/google-plus.svg');
+}
