@@ -1,9 +1,5 @@
-
-ul{
-    padding-left: 0;
-}
   
-  .section-margin-bottom-tours{
+  .section-tour, .section-browse {
       margin-bottom: 3rem;
   }
 
@@ -13,12 +9,18 @@ ul{
    }
    .margin-tour{
        margin-bottom: 3rem;
+       display: flex;
+       justify-content: space-between;
    }
    .margin-tour:last-child{
        margin-bottom: 0;
    }
-
-   
+   .box-img{
+       margin-right: 1rem;
+   }
+   .box-img , .box-text{
+       flex-basis: 49%;
+   }
 
    .title-tour{
      color: rgb(0,20,100);
@@ -34,9 +36,6 @@ ul{
      margin-bottom: 1rem;
    }
 
-   .margin-price{
-
-   }
 
    .link-tour{
     border: 0.1rem solid rgba(0,0,0,0.2);
@@ -50,6 +49,7 @@ ul{
 }
 
    /*--------------BROWSE-----------------------*/
+
 option{
     font-size: 0.8rem;
 }
@@ -84,6 +84,16 @@ option{
 }
 
 /*------------------TOUR-OPERATOR------------------*/
+.list-search{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item-list-search{
+    flex-basis: 49%;
+
+}
 .link-all-operators{
     color: rgb(2, 200,255);
     margin-bottom: 0.5rem;
@@ -101,6 +111,9 @@ option{
 
 
 @media(min-width:75rem){
+    .list-search{
+        flex-direction: column;
+    }
     .section-margin-bottom-tours:first-child{
         margin-bottom: 0;
     }

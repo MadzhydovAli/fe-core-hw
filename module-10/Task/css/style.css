@@ -1,0 +1,33 @@
+.row{
+    margin-bottom: 2rem;
+    outline: 2px solid #555;
+}
+
+*{
+    text-align: center;
+}
+/*--------------TASK-1,3-----------------*/
+
+.content{
+    height: 6rem;
+    background: rgb(249, 249, 110);
+
+}
+.sidebar{
+    height: 6rem;
+    background: rgb(71, 241, 136);
+
+}
+
+
+
+/*--------------TASK-2,3-----------------*/
+.grid-item{
+    list-style-type:none;
+    height: 6rem;
+    background: rgba(255,200,155,1);
+}
+.pink{
+    background: rgb(210, 137, 210);
+}
+

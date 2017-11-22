@@ -1,28 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     background: url(../img/base-fon/fon.png);
     background-size:cover;
     background-repeat: no-repeat;
 }
 .wrapper{
-    background: #fff;
-    padding: 4rem 3rem;
-}
-.container-width{
     min-width: 30rem;
     max-width: 75rem;
     position: relative;
+    margin: auto;
 }
-
-
 ul{
     list-style-type: none;
     margin-bottom: 0;
 }
-a:hover{
+a{
     text-decoration: none;
     }
-
-
 
 .arrow-top{
     position: fixed;
@@ -37,9 +35,4 @@ a:hover{
     padding: 0.25rem 0.75rem;
     color: #fff;
     font-size: 1.3rem;
-}
-
-
-ul{
-    padding-left: 0;
 }

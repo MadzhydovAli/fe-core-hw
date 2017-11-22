@@ -2,14 +2,13 @@
 /*-----------------HEADER-----------------*/
     header{
         margin-top: 0;
-    }
-    .row-position-absolute{
         position: relative;
     }
-    .logo-position-absolute{
+
+    .box-logo{
         position: absolute ;
         left: 50%;
-        top: 60%;
+        top: 50%;
         transform:translate(-50%,-50%); 
         margin-bottom: 0;
     }
@@ -41,7 +40,7 @@
 
 /*----------------------GALLERY-----------------------*/
 
-  .container-img:nth-last-child(-n+3){
+.container-img [class*="col-"]:nth-last-child(-n+3){
     display: block;
 }
 .title-section{

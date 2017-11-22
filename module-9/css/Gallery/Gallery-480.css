@@ -9,12 +9,11 @@ header{
 .box-logo{
     text-align: center;
     margin-bottom: 2rem;
+    z-index: 2;
 }
-.position-absolute{
-    z-index: 100;
-}
+
 .logo{
-    z-index: 100;
+
     font-size: 1.2rem;
     font-weight: bold;
     display: inline-block;
@@ -105,8 +104,8 @@ header{
         padding-bottom: 1.5rem;
     }
 
-    .container-img{
-        margin-bottom: 2rem;
+    .container-img [class*="col-"]{
+        padding-bottom: 2rem;
     }
     .box-img{
         position: relative;
@@ -150,30 +149,37 @@ header{
    
 
 
-    .container-img:nth-last-child(-n+3){
+    .container-img [class*="col-"]:nth-last-child(-n+3){
         display: none;
     }
 
-    .container-img:last-child{
+    .container-img [class*="col-"]:last-child{
         margin-bottom: 0rem;
     }
     
 /*--------------------------FOOTER-----------------------------*/
     .footer-one{
-        background: #123456;
+        background: #182f46;
         color: #fff;
-        padding: 1.5rem 2.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1.5rem 3rem;
         font-size: 0.8rem;
       }
       .list-footer{
+            flex-basis: 100%;
           display: flex;
           flex-wrap: wrap;
         text-transform: uppercase;
         margin-bottom: 1rem;
-        text-align: center;
-      }
+          text-align: center;
+           }
+
       .item-footer{
+          flex-basis: 33%;
         margin-bottom: 0.5rem;
+        text-align: left;
       }
       .item-footer:nth-last-child(-n+3){
         margin-bottom: 0rem;
@@ -182,15 +188,18 @@ header{
         color:#fff;
       }
       .section-contacts{
-        text-align: center;
+          flex-basis: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
       .item-contact{
-       display: inline-block;
+          flex-basis: 33%;
         text-transform: uppercase;
-        text-align: center;
+        margin-bottom: 0;
       }
       .link-contact{
-          display: inline-block;
+        flex-basis: 33%;
         color:#fff;
         font-size: 0.6rem;
       }
@@ -202,7 +211,6 @@ header{
       .email-footer::before{
         content:'\2709';
         font-size: 1.2rem;
-        margin-left: 1rem;
         margin-right: 0.25rem;
       }
       
@@ -214,18 +222,18 @@ header{
         display: flex;
         justify-content: center;
       }
+      .sprite-item{
+        padding: 0.25rem;
+      }
       .content-center{
           justify-content: center;
-      }
-      .sprite-item{
-          text-align: center;
-          padding: 0.5rem;
       }
 
       .sprite-item>a {   
         display: inline-block;
         height: 2.5rem;
         width: 2.5rem;
+        
       }
       
       .sprite-item:nth-of-type(1)>a {
